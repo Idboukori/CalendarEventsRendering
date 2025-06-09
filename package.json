@@ -1,0 +1,39 @@
+{
+  "name": "ali-idboukori-front-rendering-event-1383e038-63ed-4373-a289-4d2e13409cf3",
+  "version": "1.0.0",
+  "description": "La position relative des événements se calcule en en fonction de la bordure supérieure de la fenêtre, l'heure et la durée des événements.\r Par exemple : si le calendrier va de 00:00 à 24:00 et que l'écran est de 2400px de haut, un événement commençant à 12h00 et durant 1h sera positionné à 1200px du haut de l'écran et aura une hauteur de 100px.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "jest",
+    "lint": "eslint src --ext .ts,.tsx"
+  },
+  "keywords": [],
+  "author": "Ali IDBOUKORI",
+  "license": "ISC",
+  "dependencies": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "6.6.3",
+    "@testing-library/react": "16.3.0",
+    "@testing-library/user-event": "14.6.1",
+    "@types/jest": "29.5.14",
+    "@types/react": "19.1.6",
+    "@types/react-dom": "19.1.5",
+    "@typescript-eslint/eslint-plugin": "8.33.0",
+    "@typescript-eslint/parser": "8.33.0",
+    "@vitejs/plugin-react": "4.5.0",
+    "eslint": "9.28.0",
+    "jest": "29.7.0",
+    "jest-environment-jsdom": "^30.0.0-beta.3",
+    "sass": "1.89.1",
+    "ts-jest": "29.3.4",
+    "ts-node": "^10.9.2",
+    "typescript": "5.8.3",
+    "vite": "6.3.5"
+  }
+}
